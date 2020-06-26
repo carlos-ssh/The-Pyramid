@@ -19,3 +19,17 @@ This going to show the next result:
                ##### 
 
 =end
+
+print "Insert a Letter: "
+c = gets.chomp[0]
+c = c[0]
+
+print "Insert a Number: "
+n = gets.chomp.to_i.abs
+
+for i in 1..n
+
+  puts " " * (n - i)
+  
+
+end
