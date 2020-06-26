@@ -29,7 +29,7 @@ n = gets.chomp.to_i.abs
 
 for i in 1..n
 
-  puts " " * (n - i)
-  
+  puts " " * (n - i) + c
+
 
 end
