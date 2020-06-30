@@ -3,7 +3,7 @@ This program work following these simple step:
 
 -Type a Letter and a Number on your keyboard.
 
--And then this program will do a Pyramid with the letter that you selected multiplied for the number that you choiced.
+-And th  
 
 
 /////////////////
@@ -27,9 +27,11 @@ c = c[0]
 print "Insert a Number: "
 n = gets.chomp.to_i.abs
 
+value = c
+
 for i in 1..n
 
-  puts " " * (n - i) + c
-
+  puts " " * (n - i) + value
+  value += c * 2
 
 end
